@@ -1,6 +1,10 @@
 # hw10-employee-summary-cli-template-engine
 Software engineering team generator command line application
 
+- STEP #1: NPM Init, NPM Install (Inquirer, Jest).
+- STEP #2: gitignore, read me shortened to necessary deliverables.
+- STEP #3: Write code in app.js to cover the following: A) Gather info about dvlt team members, B) create objects for each team member (using correct classes as blueprints).
+
 # Unit 10 OOP Homework: Template Engine - Employee Summary
 • Build a Node CLI that takes in information about employees and generates an HTML webpage.
 • HTML webpage displays summaries for each person.
@@ -21,11 +25,11 @@ Software engineering team generator command line application
 2) so that I have quick access to A) emails B) GitHub profiles.
 
 ## Guidelines
-• Inquirer npm package ](https://github.com/SBoudrias/Inquirer.js/) to prompt the user: 1) email, 2) id, 3) specific information company role based.
+• Inquirer npm package to prompt the user: 1) email, 2) id, 3) specific information company role based.
   Ex: intern provides school, an engineer provides GitHub username.
 • App runs as a Node CLI to gather the info.
-• [jest](https://jestjs.io/) to run tests.
-• [inquirer](https://www.npmjs.com/package/inquirer) to collect user input.
+• [inquirer] to collect user input.
+• [jest] to run tests.
 • Unit tests to help you build the classes necessary.
 
 ## Follow this workflow:
@@ -60,7 +64,7 @@ Create multiple HTML templates for each type, use templates:
 • Class #1 is an `Employee` parent class with following props/methods: 1) name 2) id 3) email 4) getName() 5) getId() 6) getEmail() 7) getRole(): Returns 'Employee'
 • Classes #2, #3, #4 to extend `Employee` props/methods. 
 • In addition, Class #2 `Manager` to include: 1) officeNumber 2) getRole(): Overridden to return 'Manager'
-• In addition, Class #3 `Engineer` to include: 1) github: GitHub username 2) getGithub() 3) getRole() // Overridden to return 'Engineer'
+• In addition, Class #3 `Engineer` to include: 1) github: GitHub username 2) getGithub() 3) getRole(): Overridden to return 'Engineer'
 • In addition, Class #4 `Intern` to include: 1) school 2) getSchool() 3) getRole(): Overridden to return 'Intern'
 
 ### User input
