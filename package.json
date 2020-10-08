@@ -1,7 +1,7 @@
 {
   "name": "hw10-employee-summary-cli-template-engine",
   "version": "1.0.0",
-  "description": "hw10-Software engineering team generator command line application ",
+  "description": "hw10-Software engineering team generator command line application ![Project license badge](https://img.shields.io/badge/license-MIT-brightgreen)",
   "main": "app.js",
   "directories": {
     "lib": "lib",
@@ -17,9 +17,9 @@
   "author": "Pierre André Lowenstein",
   "license": "MIT",
   "bugs": {
-    "url": "https://"
+    "url": "https://github.com/palowenstein/hw10-cli-employee-summary-template-engine/issues"
   },
-  "homepage": "https://",
+  "homepage": "https://github.com/palowenstein/hw10-cli-employee-summary-template-engine",
   "dependencies": {
     "inquirer": "^6.3.1"
   },
