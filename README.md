@@ -42,9 +42,9 @@
 <ul>
 <li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd hw10-cli-employee-summary-template-engine</li>
 <li>Run the 'npm init' command to fill the package json with the application information (screenshot #1).</li>
-<li>Run the 'npm install' command to install the inquirer, jest dependencies (screenshot #2).</li>
-<li>Run the 'node app.js' command to start the application in Terminal (GIF/MP4).</li>
-<li>While still in Terminal, answer the following prompts (GIF/MP4):
+<li>Run the 'npm install' command to install the inquirer, jest dependencies (screenshot #1).</li>
+<li>Run the 'node app.js' command to start the application in Terminal (GIF/MP4/screenshot #2).</li>
+<li>While still in Terminal, answer the following prompts (GIF/MP4/screenshot #2):
     <ol>
     <li>Employee full name</li>
     <li>Employee identification number (must pass validation - numbers only)</li>
@@ -68,7 +68,7 @@
 ## Tests
 <ul>
 <li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd hw10-cli-employee-summary-template-engine</li>
-<li>Run the 'npm run test' command to run tests over all classes</li>
+<li>Run the 'npm run test' command to run tests over all classes (screenshot #4).</li>
 </ul>
 
 
