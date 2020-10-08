@@ -81,7 +81,7 @@
 <h6>CLI Team Page HTML Generator (Screenshot #2: npm install)</h6>
 <br />
 
-![CLI Team Page HTML Generator (Screenshot #3: "My Team" HTML Page generated from user input)](./demo_assets/ucla-hw10-3-cli-employee-summary-template-engine-generated-team-page.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #3: Generated "My Team" HTML Page)")
+![CLI Team Page HTML Generator (Screenshot #3: "My Team" HTML Page generated from user input)](./demo_assets/ucla-hw10-3-cli-employee-summary-template-engine-generated-team-page.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #3: Generated My Team HTML Page)")
 <h6>CLI Team Page HTML Generator (Screenshot #3: Generated "My Team" HTML Page)</h6>
 <br />
 
