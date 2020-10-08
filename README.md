@@ -73,16 +73,16 @@
 
 
 ## Screenshots
-![CLI Team Page HTML Generator (Screenshot #1: npm init)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-init.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm init)")
+![CLI Team Page HTML Generator (Screenshot #1: npm init/install)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-init-install.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm init/install)")
 <h6>CLI Team Page HTML Generator (Screenshot #1: npm init)</h6>
 <br />
 
-![CLI Team Page HTML Generator (Screenshot #2: npm install)](./demo_assets/ucla-hw10-2-cli-employee-summary-template-engine-npm-install-inquirer.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #2: npm install)")
-<h6>CLI Team Page HTML Generator (Screenshot #2: npm install)</h6>
+![CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)](./demo_assets/ucla-hw10-2-cli-employee-summary-template-engine-terminal-application-usage.png?raw=true "CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)")
+<h6>CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)</h6>
 <br />
 
 ![CLI Team Page HTML Generator (Screenshot #3: My Team HTML Page generated from user input)](./demo_assets/ucla-hw10-3-cli-employee-summary-template-engine-generated-team-page.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #3: Generated My Team HTML Page)")
-<h6>CLI Team Page HTML Generator (Screenshot #3: Generated "My Team" HTML Page)</h6>
+<h6>CLI Team Page HTML Generator (Screenshot #3: Generated My Team HTML Page)</h6>
 <br />
 
 ![CLI Team Page HTML Generator (Screenshot #4: Testing Environment - npm run test)](./demo_assets/ucla-hw10-4-cli-employee-summary-template-engine-npm-run-test.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #4: Testing Environment - npm run test)")
