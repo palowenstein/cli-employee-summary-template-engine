@@ -74,7 +74,7 @@
 
 ## Screenshots
 ![CLI Team Page HTML Generator (Screenshot #1: npm init/install)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-init-install.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm init/install)")
-<h6>CLI Team Page HTML Generator (Screenshot #1: npm init)</h6>
+<h6>CLI Team Page HTML Generator (Screenshot #1: npm init/install)</h6>
 <br />
 
 ![CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)](./demo_assets/ucla-hw10-2-cli-employee-summary-template-engine-terminal-application-usage.png?raw=true "CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)")
