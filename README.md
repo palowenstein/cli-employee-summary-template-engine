@@ -72,7 +72,7 @@
 
 
 ## Screenshots
-![CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-install-package-json.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)")
+![CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-install-package-json.png?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)")
 <h6>CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)</h6>
 <br />
 
