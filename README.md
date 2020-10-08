@@ -90,8 +90,8 @@
 <br />
 
 ## Video
-![CLI Team Page HTML Generator Prompt Flow (MP4)](./demo_assets/ucla-hw10-cli-employee-summary-template-engine-demo.mp4 "CLI Team Page HTML Generator Prompt Flow (MP4)")
-<h6>CLI Team Page HTML Generator Prompt Flow (MP4)</h6>
+![CLI Team Page HTML Generator - Application usage in Terminal (MP4)](./demo_assets/ucla-hw10-cli-employee-summary-template-engine-demo.mp4 "CLI Team Page HTML Generator - Application usage in Terminal (MP4)")
+<h6>CLI Team Page HTML Generator - Application usage in Terminal (MP4)</h6>
 <br />
 
 ## References
