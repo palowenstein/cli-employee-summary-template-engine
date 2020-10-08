@@ -25,7 +25,8 @@ const teamMemberQuestions = [
       { type: 'input', name: 'id', message: 'Enter employee identification number: ',
       validate: async (input) => {
           if ( !input ) { return 'Cannot accept an empty input field.'; }
-          return true; }
+          else if (/^[0-9]+$/.test(input)) {return true;}
+          return 'Please enter numbers only'; }
       },
       { type: 'input', name: 'email', message: 'Enter employee e-mail: ',
           validate: async (input) => {
@@ -35,20 +36,24 @@ const teamMemberQuestions = [
       { type: 'list', name: 'role', message: 'Choose employee role.', choices: ['Manager', 'Engineer', 'Intern'] }, // This is the only list selector of the whole array.
 
             { when: input => { return input.role == 'Manager' },
-            type: 'input', name: 'phoneNumber', message: 'Enter manager phone number: ',
+            type: 'input', name: 'phoneNumber', message: 'Enter manager phone number (numbers only): ',
             validate: async (input) => {
-              if (/^([01]{1})?[-.\s]?\(?(\d{3})\)?[-.\s]?(\d{3})[-.\s]?(\d{4})\s?((?:#|ext\.?\s?|x\.?\s?){1}(?:\d+)?)?$/.test(input)) { return true; }
-              return 'Please enter a valid phone number. '; }
+              if (/^[0-9]+$/.test(input)) {return true;}
+              return 'Please enter a valid phone number (numbers only). '; }
             },
             { when: input => { return input.role == 'Engineer' },
-            type: 'input', name: 'github', message: 'Enter engineer github username:',
+            type: 'input', name: 'github', message: 'Enter engineer github username (5-15 characters, alphanumerical, no spaces):',
             validate: async (input) => {
-                if (input == '' || /\s/.test(input)) { return 'Please enter a valid github username'; }
-                return true; },   
+                if ( !input ) { return 'Cannot accept an empty input field.' }              
+                else if ((input.length < 5) || (input.length > 15)) { return 'Username must be comprised of 5-15 characters'; }
+                else if (/\W/.test(input)) { return 'Please enter a valid username comprised of numbers, letters, 5-15 characters in length, no spaces.'; }
+                else if (/\s/.test(input)) { return 'Please enter a valid username containing no spaces.'; }
+                else { return true; }
+                },
             },
             { when: input => { return input.role == 'Intern' },
             type: 'input', name: 'school', message: 'Enter intern school name:',
-            validate: async (input) => { if ( !input ) { return 'Please enter a school name.'; }
+            validate: async (input) => { if ( !input ) { return 'Cannot accept an empty input field.'; }
                 return true; },
             },
 

@@ -18,13 +18,6 @@
 ## GIF
 ![CLI Team Page HTML Generator (GIF)](./demo_assets/ucla-hw10-cli-employee-summary-template-engine-demo.gif "CLI Team Page HTML Generator (GIF)")
 
-
-The goal was to build a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. Since testing is a key piece in making code maintainable, the goal was also to ensure that all unit tests pass. One of the most important aspects of programming is writing code that is readable, reliable, and maintainable. Oftentimes, *how* we design our code is just as important as the code itself. Overall, the goal was to create a functional app where a user can use the CLI to generate an HTML page that displays information about their team, in which all tests must pass.
-
-The process involved building a software engineering team generator command line application. The application prompts the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. A goal was also to ensure it passes all unit tests. When the user has completed building the team, the application creates an HTML file that displays a nicely formatted team roster based on the information provided by the user. 
-
-
-
 ## Overview
 <ul>
 <li>HTML Team Page Generator executed in Terminal via (CLI) Command Line Interface.</li>
@@ -32,9 +25,11 @@ The process involved building a software engineering team generator command line
 <li>Team information is gathered by having the user answering prompts in Terminal (Inquirer engine).</li>
 <li>Each prompt must validate a question gathering information such as employee name, ID, role, phone number, github profile, school attended.</li>
 <li>All questions are answered via a character string except for the employee role, which is choice/list driven.</li>
-<li>E-mail, Phone Number and GitHub profile have to be validated before being pushed into the Team array (see GIF).</li>
+<li>ID number, E-mail, Phone Number and GitHub profile have to be REGEX validated before being pushed into the Team array (see GIF).</li>
 <li>Application can be tested via a simple 'npm run test' in Terminal (see below / screenshots).</li>
 <li>The goal of the application is its ease of use (no code to tinker) and the automated, dynamic HTML team generator function which outputs a good looking html file.</li>
+<li>The application's biggest strength, unlike some other versions, is that you can create as many managers, engineers, interns as needed.</li>
+<li> Other versions of the application usually limit you to one manager for an unlimited number of engineers and interns. Here, the ID# dictates the hierarchy.</li>
 </ul>
 
 ## Details
@@ -52,12 +47,12 @@ The process involved building a software engineering team generator command line
 <li>While still in Terminal, answer the following prompts (GIF/MP4):
     <ol>
     <li>Employee full name</li>
-    <li>Employee identification number</li>
+    <li>Employee identification number (must pass validation - numbers only)</li>
     <li>Employee e-mail (must pass validation)</li>
     <li>Employee role: Manager, Engineer, Intern.
         <ol>
-        <li>if Manager, enter phone number (must pass validation).</li>
-        <li>if Engineer, enter github username (must pass validation)</li>
+        <li>if Manager, enter phone number (must pass validation - numbers only).</li>
+        <li>if Engineer, enter github username (must pass validation - 5 to 15 alphanumerical characters)</li>
         <li>if Intern, enter the school attended</li>
         </ol>
     </li>
