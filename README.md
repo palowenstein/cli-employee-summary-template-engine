@@ -28,8 +28,7 @@
 <li>ID number, E-mail, Phone Number and GitHub profile have to be REGEX validated before being pushed into the Team array (see GIF).</li>
 <li>Application can be tested via a simple 'npm run test' in Terminal (see below / screenshots).</li>
 <li>The goal of the application is its ease of use (no code to tinker) and the automated, dynamic HTML team generator function which outputs a good looking html file.</li>
-<li>The application's biggest strength, unlike some other versions, is that you can create as many managers, engineers, interns as needed.</li>
-<li> Other versions of the application usually limit you to one manager for an unlimited number of engineers and interns. Here, the ID# dictates the hierarchy.</li>
+<li>The application's biggest strength, unlike some other versions, is that you can create as many managers as needed (same goes for engineers, interns).</li>
 </ul>
 
 ## Details
