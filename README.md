@@ -28,23 +28,21 @@
 <li>ID number, E-mail, Phone Number and GitHub profile have to be REGEX validated before being pushed into the Team array (see GIF).</li>
 <li>Application can be tested via a simple 'npm run test' in Terminal (see below / screenshots).</li>
 <li>The goal of the application is its ease of use (no code to tinker) and the automated, dynamic HTML team generator function which outputs a good looking html file.</li>
-<li>The application's biggest strength, unlike some other versions, is that you can create as many managers, engineers, interns as needed.</li>
-<li> Other versions of the application usually limit you to one manager for an unlimited number of engineers and interns. Here, the ID# dictates the hierarchy.</li>
+<li>The application's biggest strength, unlike some other versions, is that you can create as many managers as needed (same goes for engineers, interns).</li>
 </ul>
 
 ## Details
 <ul>
 <li>A .gitignore file is present at the root level to prevent the upload of node_modules, .DS_Store.</li>
-<li>The included package.json file includes all dependencies if the user wants to run 'npm install' instead of the instructions below</li>
+<li>The included package.json includes an install link to all the required dependencies needed for the program to run. All the user needs to do is run 'npm install' in Terminal while in the root folder (see Instructions).</li>
 </ul>
 
 ## Instructions
 <ul>
 <li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd hw10-cli-employee-summary-template-engine</li>
-<li>Run the 'npm init' command to fill the package json with the application information (screenshot #1).</li>
-<li>Run the 'npm install' command to install the inquirer, jest dependencies (screenshot #2).</li>
+<li>Run the 'npm install' command to install the inquirer, jest dependencies from the package.json (screenshot #1).</li>
 <li>Run the 'node app.js' command to start the application in Terminal (GIF/MP4).</li>
-<li>While still in Terminal, answer the following prompts (GIF/MP4):
+<li>While still in Terminal, answer the following prompts (GIF/MP4/screenshot #2):
     <ol>
     <li>Employee full name</li>
     <li>Employee identification number (must pass validation - numbers only)</li>
@@ -68,13 +66,13 @@
 ## Tests
 <ul>
 <li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd hw10-cli-employee-summary-template-engine</li>
-<li>Run the 'npm run test' command to run tests over all classes</li>
+<li>Run the 'npm run test' command to run tests over all classes (screenshot #4).</li>
 </ul>
 
 
 ## Screenshots
-![CLI Team Page HTML Generator (Screenshot #1: npm init/install)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-init-install.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm init/install)")
-<h6>CLI Team Page HTML Generator (Screenshot #1: npm init/install)</h6>
+![CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-install-package-json.png?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)")
+<h6>CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)</h6>
 <br />
 
 ![CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)](./demo_assets/ucla-hw10-2-cli-employee-summary-template-engine-terminal-application-usage.png?raw=true "CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)")
@@ -90,8 +88,8 @@
 <br />
 
 ## Video
-![CLI Team Page HTML Generator Prompt Flow (MP4)](./demo_assets/ucla-hw10-cli-employee-summary-template-engine-demo.mp4 "CLI Team Page HTML Generator Prompt Flow (MP4)")
-<h6>CLI Team Page HTML Generator Prompt Flow (MP4)</h6>
+![CLI Team Page HTML Generator - Application usage in Terminal (MP4)](./demo_assets/ucla-hw10-cli-employee-summary-template-engine-demo.mp4 "CLI Team Page HTML Generator - Application usage in Terminal (MP4)")
+<h6>CLI Team Page HTML Generator - Application usage in Terminal (MP4)</h6>
 <br />
 
 ## References

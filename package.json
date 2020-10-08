@@ -12,18 +12,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/palowenstein/hw10-employee-summary-template-engine"
+    "url": "git+https://github.com/palowenstein/hw10-cli-employee-summary-template-engine.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Pierre André Lowenstein",
+  "license": "MIT",
   "bugs": {
     "url": "https://"
   },
-  "homepage": "https://______________________________",
+  "homepage": "https://",
   "dependencies": {
     "inquirer": "^6.3.1"
   },
   "devDependencies": {
     "jest": "^24.8.0"
-  }
+  },
+  "keywords": [
+    "command",
+    "line",
+    "interface",
+    "terminal",
+    "html",
+    "team",
+    "page",
+    "generator"
+  ]
 }
