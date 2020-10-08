@@ -41,9 +41,8 @@
 ## Instructions
 <ul>
 <li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd hw10-cli-employee-summary-template-engine</li>
-<li>Run the 'npm init' command to fill the package json with the application information (screenshot #1).</li>
 <li>Run the 'npm install' command to install the inquirer, jest dependencies (screenshot #1).</li>
-<li>Run the 'node app.js' command to start the application in Terminal (GIF/MP4/screenshot #2).</li>
+<li>Run the 'node app.js' command to start the application in Terminal (GIF/MP4).</li>
 <li>While still in Terminal, answer the following prompts (GIF/MP4/screenshot #2):
     <ol>
     <li>Employee full name</li>
@@ -73,8 +72,8 @@
 
 
 ## Screenshots
-![CLI Team Page HTML Generator (Screenshot #1: npm init/install)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-init-install.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm init/install)")
-<h6>CLI Team Page HTML Generator (Screenshot #1: npm init/install)</h6>
+![CLI Team Page HTML Generator (Screenshot #1: npm install)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-install.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm install)")
+<h6>CLI Team Page HTML Generator (Screenshot #1: npm install)</h6>
 <br />
 
 ![CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)](./demo_assets/ucla-hw10-2-cli-employee-summary-template-engine-terminal-application-usage.png?raw=true "CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)")
