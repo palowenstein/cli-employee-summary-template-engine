@@ -34,7 +34,7 @@
 ## Details
 <ul>
 <li>A .gitignore file is present at the root level to prevent the upload of node_modules, .DS_Store.</li>
-<li>The included package.json file includes all dependencies needed for the program to run.</li>
+<li>The included package.json includes an install link to all the required dependencies needed for the program to run. All the user needs to do is run 'npm install' in Terminal while in the root folder (see Instructions).</li>
 </ul>
 
 ## Instructions
