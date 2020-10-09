@@ -1,4 +1,5 @@
 ## #hw10-cli-employee-summary-template-engine
+![Project license](https://img.shields.io/badge/license-MIT,https://choosealicense.com/licenses/mit/-brightgreen)
 
 <h3>HTML Team Page Generator executed via a Node Command Line Interface (CLI) in Terminal.</h3>
 <p>Github Repository Page: https://github.com/palowenstein/hw10-cli-employee-summary-template-engine</p>
@@ -106,7 +107,6 @@
 
  ## License
 <p>
-![Project license](https://img.shields.io/badge/license-MIT,https://choosealicense.com/licenses/mit/-brightgreen)
 <a href="./MITlicense.txt">MIT License</a> | Copyright © [2020] Pierre André Lowenstein
 </p>
 
