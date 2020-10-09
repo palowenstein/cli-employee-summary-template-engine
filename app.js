@@ -4,7 +4,7 @@ const Intern = require('./lib/Intern'); // Intern Library (Constructor) Import
 const inquirer = require('inquirer'); // Node.js inquirer module for: a) asking questions b) parsing input c) validating answers
 const path = require('path'); // Node.js path module provides access to file/directory path 
 const fs = require('fs'); // Node.js fs module to write to file
-const OUTPUT_DIR = path.resolve(__dirname, 'output'); // Directs output to the output directory (existing or to be created - see lines 82, 84-86)
+const OUTPUT_DIR = path.resolve(__dirname, 'output'); // Directs output to the output directory (existing or to be created - see lines 92, 94-96)
 const outputPath = path.join(OUTPUT_DIR, 'team.html'); // Join, appends inquirer info to team.html inside the output directory. 
 const render = require('./lib/htmlRenderer'); // This loads the library that will render
 
