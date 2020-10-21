@@ -10,10 +10,12 @@
   * [Overview](#Overview)
   * [Details](#Details)
   * [Instructions](#Instructions)
+  * [Tests](#Tests)  
   * [Screenshots](#Screenshots)
   * [Video](#Video)
   * [References](#References)
   * [License](#License)
+  * [Contributions](#Contributions)  
   * [Contact](#Contact)
 
 ## GIF
@@ -61,7 +63,7 @@
 <li>If the output folder doesn't exit yet, it will be created by the application (fs_write function).
 </ul>
 
-<p><i>Refer to index.js (javascript file) for code dissection.</i></p>
+<p><i>Refer to app.js (javascript file) for code dissection.</i></p>
 
 
 ## Tests
