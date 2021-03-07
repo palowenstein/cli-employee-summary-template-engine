@@ -1,8 +1,8 @@
-## #hw10-cli-employee-summary-template-engine
+## #10-cli-employee-summary-template-engine
 ![Project license](https://img.shields.io/badge/license-MIT,https://choosealicense.com/licenses/mit/-brightgreen)
 
 <h3>HTML Team Page Generator executed via a Node Command Line Interface (CLI) in Terminal.</h3>
-<p>Github Repository Page: https://github.com/palowenstein/hw10-cli-employee-summary-template-engine</p>
+<p>Github Repository Page: https://github.com/palowenstein/cli-employee-summary-template-engine</p>
 <p>Github Deployment Page: N/A - App is to be executed in Terminal via CLI.</p>
 
 # Table of Contents
@@ -19,7 +19,7 @@
   * [Contact](#Contact)
 
 ## GIF
-![CLI Team Page HTML Generator (GIF)](./demo_assets/ucla-hw10-cli-employee-summary-template-engine-demo.gif "CLI Team Page HTML Generator (GIF)")
+![CLI Team Page HTML Generator (GIF)](./demo_assets/10-cli-employee-summary-template-engine-demo.gif "CLI Team Page HTML Generator (GIF)")
 
 ## Overview
 <ul>
@@ -42,7 +42,7 @@
 
 ## Instructions
 <ul>
-<li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd hw10-cli-employee-summary-template-engine</li>
+<li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd cli-employee-summary-template-engine</li>
 <li>Run the 'npm install' command to install the inquirer, jest dependencies from the package.json (screenshot #1).</li>
 <li>Run the 'node app.js' command to start the application in Terminal (GIF/MP4).</li>
 <li>While still in Terminal, answer the following prompts (GIF/MP4/screenshot #2):
@@ -68,30 +68,30 @@
 
 ## Tests
 <ul>
-<li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd hw10-cli-employee-summary-template-engine</li>
+<li>In Terminal, locate the application folder and enter into it via the 'cd' command: cd cli-employee-summary-template-engine</li>
 <li>Run the 'npm run test' command to run tests over all classes (screenshot #4).</li>
 </ul>
 
 
 ## Screenshots
-![CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)](./demo_assets/ucla-hw10-1-cli-employee-summary-template-engine-npm-install-package-json.png?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)")
+![CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)](./demo_assets/10-1-cli-employee-summary-template-engine-npm-install-package-json.png?raw=true "CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)")
 <h6>CLI Team Page HTML Generator (Screenshot #1: npm install/package.json)</h6>
 <br />
 
-![CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)](./demo_assets/ucla-hw10-2-cli-employee-summary-template-engine-terminal-application-usage.png?raw=true "CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)")
+![CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)](./demo_assets/10-2-cli-employee-summary-template-engine-terminal-application-usage.png?raw=true "CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)")
 <h6>CLI Team Page HTML Generator (Screenshot #2: Application usage in Terminal)</h6>
 <br />
 
-![CLI Team Page HTML Generator (Screenshot #3: My Team HTML Page generated from user input)](./demo_assets/ucla-hw10-3-cli-employee-summary-template-engine-generated-team-page.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #3: Generated My Team HTML Page)")
+![CLI Team Page HTML Generator (Screenshot #3: My Team HTML Page generated from user input)](./demo_assets/10-3-cli-employee-summary-template-engine-generated-team-page.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #3: Generated My Team HTML Page)")
 <h6>CLI Team Page HTML Generator (Screenshot #3: Generated My Team HTML Page)</h6>
 <br />
 
-![CLI Team Page HTML Generator (Screenshot #4: Testing Environment - npm run test)](./demo_assets/ucla-hw10-4-cli-employee-summary-template-engine-npm-run-test.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #4: Testing Environment - npm run test)")
+![CLI Team Page HTML Generator (Screenshot #4: Testing Environment - npm run test)](./demo_assets/10-4-cli-employee-summary-template-engine-npm-run-test.jpg?raw=true "CLI Team Page HTML Generator (Screenshot #4: Testing Environment - npm run test)")
 <h6>CLI Team Page HTML Generator (Screenshot #4: Testing Environment - npm run test)</h6>
 <br />
 
 ## Video
-![CLI Team Page HTML Generator - Application usage in Terminal (MP4)](./demo_assets/ucla-hw10-cli-employee-summary-template-engine-demo.mp4 "CLI Team Page HTML Generator - Application usage in Terminal (MP4)")
+![CLI Team Page HTML Generator - Application usage in Terminal (MP4)](./demo_assets/10-cli-employee-summary-template-engine-demo.mp4 "CLI Team Page HTML Generator - Application usage in Terminal (MP4)")
 <h6>CLI Team Page HTML Generator - Application usage in Terminal (MP4)</h6>
 <br />
 
@@ -126,7 +126,7 @@
 
  ## Contact
 <p>
-<a href="http://pierreandrelowenstein.com" title="[www] Pierre Andr&eacute; Lowenstein" target="_blank">[www] pierreandrelowenstein.com</a>
+<a href="https://pierreandrelowenstein.com" title="[www] Pierre Andr&eacute; Lowenstein" target="_blank">[www] pierreandrelowenstein.com</a>
 &nbsp;|&nbsp;
-<a href="mailto:soundtrackspecialist@gmail.com" title="Courriel">Send me a 'courriel'</a>
+<a href="mailto:coder@pierreandrelowenstein.com" title="Courriel">Send me a 'courriel'</a>
 </p>
